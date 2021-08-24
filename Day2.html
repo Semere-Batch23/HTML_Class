@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cool Form</title>
+</head>
+<body>
+
+    <hi> Sign up form</hi>
+    <form>
+
+        <label for ="firstName">First name : </label>
+        <input type="text" id="firstName"  placeholder="Enter name here"  />
+
+        <br/>
+
+        <label for ="lastName">Last name : </label>
+        <input type="text" id="lastName" />
+
+        <div>
+
+        <label for="company"> Company : </label>
+        <input type="text"  id="company">
+
+        </div>
+
+        <!--    input:text#school   short cut to creat a lebel-->
+        <label for="school">School name: </label>
+        <input type="text" name="school_name" id="school">
+
+
+        <br>
+        <label for="email">Email address</label>
+        <input type="email" name="email_add" id="email">
+        <br>
+
+        <label for="martial_status">Married ?</label>
+        <input type="checkbox" name="martial_status" id="martial_status">
+
+        <label for="vaccinated">Vaccinated</label>
+        <input type="checkbox" name="got_vaccinated" id="vaccinated">
+
+        <br/>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+
+
+        <br/>
+
+        <h3>Select your car(s) </h3>
+
+        <label for="mercedes">Mercedes</label>
+        <input type="checkbox" name="mercedes" id="mercedes">
+
+
+        <label for="bmw">BMW</label>
+        <input type="checkbox" name="mercedes" id="bmw">
+
+
+        <label for="toyota">Toyota</label>
+        <input type="checkbox" name="mercedes" id="toyota">
+
+        <br/>
+
+        <h3>Select your color(s) </h3>
+
+        <label for="mercedes">Red</label>
+        <input type="radio" name="red" id="red">
+
+
+        <label for="mercedes">Blue</label>
+        <input type="radio" name="blue" id="blue">
+
+        <label for="mercedes">Green</label>
+        <input type="radio" name="green" id="green">
+
+        <br/>
+
+        <label for="passwd">Enter Password: </label>
+        <input type="password" name="password" id="passwd">
+
+        <br/>
+
+        <label for="re_passwd">Re-Enter Password</label>
+        <input type="password" name="re_password" id="re_passwd">
+
+        <br/>
+
+        <label for="years_of_exp">Years of experience</label>
+        <input type="number" name="YearsOfExperience" id="years_of_exp">
+
+        <br/>
+
+        <label for="upload">Upload a file</label>
+        <input type="file" name="docs" id="upload">
+
+        <br/>
+
+
+        <!-- select#state>option*3 short cut for dropdown menu -->
+        <label for="state">Select State: </label>
+        <select name="select_state" id="state">
+            <option >-</option>
+            <option value="VA">Virginia</option>
+            <option value="NY">New York</option>
+            <option value="CA">California</option>
+        </select>
+
+        <br/>
+
+        <label for="dateofBirth">Date of birth</label>
+        <input type="date" name="dateOfBirth" id="dateofBirth">
+
+        <br/>
+
+        <!--        input:button#submit_button-->
+        <input type="button" value="Submit" id="submit_button" />
+
+        <button type="submit" id="submit_btn" > Submit Your Form</button>
+        <!--        button:reset#reset_btn{Reset} -->
+        <button type="reset" id="reset_btn">Reset</button>
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
